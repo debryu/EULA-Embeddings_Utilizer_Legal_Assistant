@@ -5,9 +5,9 @@ import pickle
 from haystack.nodes import PreProcessor
 from rank_bm25 import BM25Okapi
 
-dataset_path = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_project/ANLP/haystack/dataset/raw_for_haystack/"
+dataset_path = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/haystack/raw_for_haystack/"
 #dataset_path = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_project/ANLP/haystack/dataset/test/"
-save_path = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_project/ANLP/haystack/dataset/raw_for_bm25/"
+save_path = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/haystack/raw_for_bm25/"
 
 # Again initialize the preprocess and the converter for the documents (just to parse words)
 converter = TextConverter(remove_numeric_tables=True, valid_languages=["it"])
@@ -51,6 +51,7 @@ for i,document in tqdm(enumerate(raw_ds)):
     ids.append(name_id)
 
     print(i)
+    
     # Stop at 10000 documents because it is taking so long
     if(i==10000):
         break

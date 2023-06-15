@@ -17,9 +17,9 @@ DOCUMENTS_TO_RETRIEVE = 5
 query = "I ricorrenti hanno partecipato alla selezione per l’ammissione al corso di laurea in Ingegneria. Questi, pur risultando idonei, non sono stati immatricolati all’indicato corso di laurea."
 
 # DATASETS
-dataset_folder = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_Crawler/datasets/raw_pdfs/"
-documentStore_folder = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_project/ANLP/haystack/dataset/index/"
-bm25_index = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_project/ANLP/haystack/dataset/raw_for_bm25/10000_INDEX.pickle"
+dataset_folder = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/crawler/datasets/raw_pdfs/"
+documentStore_folder = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/haystack/index/"
+bm25_index = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/haystack/raw_for_bm25/10000_INDEX.pickle"
 
 # LOAD THE MODEL
 model = SentenceTransformer("efederici/sentence-BERTino")

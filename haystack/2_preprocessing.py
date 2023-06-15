@@ -9,9 +9,9 @@ from transformers import AutoTokenizer, AutoModel
 import torch
 
 # Dataset where the documents prepared for Haystack are stored
-dataset_path = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_project/ANLP/haystack/dataset/raw_for_haystack/"
+dataset_path = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/haystack/raw_for_haystack/"
 # This is not used anymore, since not using haystack for indexing
-save_path = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_project/ANLP/haystack/dataset/haystack_parsing/"
+#save_path = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_project/ANLP/haystack/dataset/haystack_parsing/"
 # Load the tokenizer just to check the length of the documents and sentences (in tokens)
 tokenizer = AutoTokenizer.from_pretrained('efederici/sentence-BERTino')
 # Load the model 
@@ -59,6 +59,7 @@ for document in tqdm(raw_ds):
         #print('\n------------------\n')
 
     i += 1
+    # Just the first 1000 because it takes too long
     if i == 1000:
         break
 

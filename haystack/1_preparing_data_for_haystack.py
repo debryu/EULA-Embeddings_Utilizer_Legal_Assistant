@@ -22,9 +22,9 @@ MY INITIAL DATASET STRUCTURE:
 '''
 
 # Dataset where the raw documents are stored (text extacted from pdfs)
-raw_documents_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_Crawler/datasets/raw_pdfs/'
+raw_documents_folder = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/crawler/datasets/raw_pdfs/"
 # Dataset where the documents will be saved in the format required by haystack
-dataset_folder = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_project/ANLP/haystack/dataset/raw_for_haystack/"
+dataset_folder = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/haystack/raw_for_haystack/"
 #dataset_folder = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_project/ANLP/haystack/dataset/test/"
 # Read the data
 def loadData(path,split):

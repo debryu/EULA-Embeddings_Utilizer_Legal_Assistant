@@ -31,11 +31,10 @@ preprocessor = PreProcessor(
     split_respect_sentence_boundary=False,
 )
 
-raw_documents_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_Crawler/datasets/raw_pdfs/'
-#raw_documents_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_Crawler/datasets/test/'
-dataset_folder = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_project/ANLP/haystack/dataset/raw_for_haystack/"
-#dataset_folder = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_project/ANLP/haystack/dataset/test/"
-documentStore_folder = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_project/ANLP/haystack/dataset/index/"
+raw_documents_folder = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/crawler/datasets/raw_pdfs/"
+
+dataset_folder = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/haystack/raw_for_haystack/"
+documentStore_folder = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/haystack/index/"
 # load all the paths of the documents
 def loadData(path,split):
     files =  os.listdir(path + split)
