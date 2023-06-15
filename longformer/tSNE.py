@@ -5,9 +5,9 @@ import pickle
 
 
 
-current_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_project/ANLP/longformer/'
+current_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/data/'
 
-with open(current_folder + 'data/newEmbedsFullEpoch.pickle', 'rb') as file:
+with open(current_folder + 'newEmbedsFullEpoch.pickle', 'rb') as file:
     data = pickle.load(file)
 
 embeddings = np.array(data['embeddings'])

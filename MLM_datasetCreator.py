@@ -8,9 +8,8 @@ from transformers import BertTokenizer
 model_name = "bert-base-multilingual-cased"
 tokenizer1 = BertTokenizer.from_pretrained('bert-base-multilingual-cased')
 
-
-raw_documents_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_Crawler/datasets/pdfs/'
-dataset_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_project/dataset/MLM/ds3/'
+raw_documents_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/crawler/datasets/pdfs/'
+dataset_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/longformer/MLM/ds3/'
 min_sentence_length = 3 #In words
 max_sentence_length = 100 #In words
 min_word_length = 3

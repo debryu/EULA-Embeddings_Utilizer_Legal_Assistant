@@ -13,7 +13,7 @@ import wandb
 
 
 loadModel = True
-dataset_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_project/dataset/MLM/ds3/'
+dataset_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/longformer/MLM/ds3/'
 batch_size = 1
 #bert_lr = 0.00000000000001
 mlm_head_lr = 0.00001

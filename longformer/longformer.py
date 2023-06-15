@@ -15,7 +15,7 @@ virtualBatch = 8
 loadModel = True
 continue_from_epoch = 24000
 model_to_load = 'longformer_partial_epochIDK4.pth'
-dataset_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_project/dataset/MLM/ds3/'
+dataset_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/longformer/MLM/ds3/'
 batch_size = 1
 #bert_lr = 0.00000000000001
 mlm_head_lr = 0.00001
@@ -32,7 +32,7 @@ torch.set_num_threads(8)
 print(device)
 
 model_name = "allenai/longformer-base-4096"
-save_path = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_project/ANLP/saved_models/MLM/longformer-base-4096/epochs/"
+save_path = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/saved_models/MLM/longformer-base-4096/epochs/"
 
 from transformers import AutoTokenizer
 tokenizer = AutoTokenizer.from_pretrained(model_name)

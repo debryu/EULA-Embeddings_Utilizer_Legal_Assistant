@@ -81,7 +81,7 @@ from tqdm.auto import tqdm
 batch_size = 128
 
 
-dataset_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_project/dataset/MLM/ds3/'
+dataset_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/longformer/MLM/ds3/'
 
 class MLMdataset(Dataset):
 

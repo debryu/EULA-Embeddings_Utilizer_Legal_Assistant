@@ -4,11 +4,16 @@ import matplotlib.pyplot as plt
 import pickle
 import pandas as pd
 
+'''
+THIS PY SCRIPT IS NOT USED ANYMORE
+NOT USED
+'''
 
 
-current_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_project/ANLP/longformer/'
 
-with open(current_folder + 'data/embedsFullEpoch.pickle', 'rb') as file:
+current_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/data/'
+
+with open(current_folder + 'embedsFullEpoch.pickle', 'rb') as file:
     data = pickle.load(file)
   
 embeddings = np.array(data['embeddings'])

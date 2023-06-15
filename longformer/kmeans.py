@@ -4,9 +4,9 @@ import pickle
 from sklearn.manifold import TSNE
 import matplotlib.pyplot as plt
 
-current_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_project/ANLP/longformer/'
+current_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/data/'
 
-with open(current_folder + 'data/LF88886.pickle', 'rb') as file:
+with open(current_folder + 'LF88886.pickle', 'rb') as file:
     data = pickle.load(file)
 
 embeddings = np.array(data['embeddings'])

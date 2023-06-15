@@ -14,7 +14,7 @@ print(device)
 
 model_name = "allenai/longformer-base-4096"
 checkpoint = 'longformerNewDifferentDataset_partial_epoch88886.pth'
-save_path = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_project/ANLP/saved_models/MLM/longformer-base-4096/epochs/"
+save_path = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/saved_models/MLM/longformer-base-4096/epochs/"
 
 from transformers import AutoTokenizer
 tokenizer = AutoTokenizer.from_pretrained(model_name)

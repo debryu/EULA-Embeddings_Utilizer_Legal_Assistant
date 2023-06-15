@@ -11,7 +11,7 @@ model_name = "allenai/longformer-base-4096"
 from transformers import AutoTokenizer
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 dataset = load_dataset("joelito/mc4_legal", "it", split='train', streaming=True)
-dataset_save_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_project/dataset/MLM/ds_newds2/'
+dataset_save_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/longformer/MLM/ds_newds2/'
 vocab_size = len(tokenizer)
 
 #CREATE THE DATALOADER

@@ -9,8 +9,8 @@ model_name = "allenai/longformer-base-4096"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
 
-raw_documents_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_Crawler/datasets/pdfs/'
-dataset_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_project/dataset/MLM/ds3/'
+raw_documents_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/crawler/datasets/pdfs/'
+dataset_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/longformer/MLM/ds3/'
 min_sentence_length = 3 #In words
 max_sentence_length = 100 #In words
 min_word_length = 3

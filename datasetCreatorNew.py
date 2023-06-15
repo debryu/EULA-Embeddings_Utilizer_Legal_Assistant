@@ -9,8 +9,8 @@ model_name = "allenai/longformer-base-4096"
 from transformers import AutoTokenizer
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-raw_documents_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_Crawler/datasets/raw_pdfs/'
-dataset_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_project/dataset/MLM/ds_selected/'
+raw_documents_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/crawler/datasets/raw_pdfs/'
+dataset_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/longformer/MLM/ds_selected/'
 vocab_size = len(tokenizer)
 
 def loadData(path,split):

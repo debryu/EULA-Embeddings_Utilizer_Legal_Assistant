@@ -15,7 +15,7 @@ virtualBatch = 1
 loadModel = False
 continue_from_epoch = 0
 model_to_load = 'longformerNew_partial_epoch1.pth'
-dataset_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_project/dataset/MLM/ds_newds2/'
+dataset_folder = 'C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/longformer/MLM/ds_newds2/'
 batch_size = 1
 #bert_lr = 0.00000000000001
 mlm_head_lr = 0.00001
@@ -33,7 +33,7 @@ num_workers = 6 #6
 print(device)
 
 model_name = "allenai/longformer-base-4096"
-save_path = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/ANLP_project/ANLP/saved_models/MLM/longformer-base-4096/epochs/"
+save_path = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/saved_models/MLM/longformer-base-4096/epochs/"
 
 from transformers import AutoTokenizer
 tokenizer = AutoTokenizer.from_pretrained(model_name)
