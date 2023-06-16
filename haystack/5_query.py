@@ -20,7 +20,7 @@ ________________________________________________________________________________
 
 '''
 
-# PARAMETERS
+# Documents that have to be retrieved by BM25
 DOCUMENTS_TO_RETRIEVE = 5
 
 # WRITE YOUR QUERY HERE
