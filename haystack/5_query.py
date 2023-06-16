@@ -25,6 +25,7 @@ DOCUMENTS_TO_RETRIEVE = 5
 
 # WRITE YOUR QUERY HERE
 query = "I ricorrenti hanno partecipato alla selezione per l’ammissione al corso di laurea in Ingegneria. Questi, pur risultando idonei, non sono stati immatricolati all’indicato corso di laurea."
+
 # SET THE DATASET FOLDER HERE
 all_datasets_folder_path = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/"
 
