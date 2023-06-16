@@ -24,9 +24,9 @@ haystack/5_query.py
 After running, it will output the link of the most similar case, the location where it was issued and the position in the ranking. By pressing ENTER it possible to view all the documents that have been retrieved.
 
 # Report
-![ANLP_report_1]
-![ANLP_report_2]
-![ANLP_report_3]
-![ANLP_report_4]
-![ANLP_report_5]
-![ANLP_report_6]
+![reportPage_1](report/ANLP_report_1.jpg)
+![reportPage_2](report/ANLP_report_2.jpg)
+![reportPage_3](report/ANLP_report_3.jpg)
+![reportPage_4](report/ANLP_report_4.jpg)
+![reportPage_5](report/ANLP_report_5.jpg)
+![reportPage_6](report/ANLP_report_6.jpg)
