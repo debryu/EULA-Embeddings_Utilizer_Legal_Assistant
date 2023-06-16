@@ -10,16 +10,34 @@ from rank_bm25 import BM25Okapi
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
 print(device)
 
+
+'''
+_________________________________________________________________________________________________________________________________________________________________
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+            USER INPUT HERE
+_________________________________________________________________________________________________________________________________________________________________
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+'''
+
 # PARAMETERS
 DOCUMENTS_TO_RETRIEVE = 5
 
 # WRITE YOUR QUERY HERE
 query = "I ricorrenti hanno partecipato alla selezione per l’ammissione al corso di laurea in Ingegneria. Questi, pur risultando idonei, non sono stati immatricolati all’indicato corso di laurea."
+# SET THE DATASET FOLDER HERE
+all_datasets_folder_path = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/"
+
+'''
+BE SURE TO PUT "/" AT THE END OF THE PATH
+_________________________________________________________________________________________________________________________________________________________________
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+'''
 
 # DATASETS
-dataset_folder = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/crawler/datasets/raw_pdfs/"
-documentStore_folder = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/haystack/index/"
-bm25_index = "C:/Users/debryu/Desktop/VS_CODE/HOME/ANLP/all_datasets/haystack/raw_for_bm25/10000_INDEX.pickle"
+dataset_folder = all_datasets_folder_path + "crawler/datasets/raw_pdfs/"
+documentStore_folder = all_datasets_folder_path + "haystack/index/"
+bm25_index = all_datasets_folder_path + "haystack/raw_for_bm25/10000_INDEX.pickle"
 
 # LOAD THE MODEL
 model = SentenceTransformer("efederici/sentence-BERTino")
