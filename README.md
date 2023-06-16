@@ -1,5 +1,4 @@
-# EULA
-## Embeddings Utilizer Legal Assistant
+# EULA: Embeddings Utilizer Legal Assistant
 
 # Usage
 ## Requirements
